@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: easuvv-bot
+    env: python
+    python_version: 3.12
+    build_command: pip install -r requirements.txt
+    start_command: python main.py
